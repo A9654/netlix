@@ -9,10 +9,10 @@ const Header = () => {
             <img src={logo} alt="logo" />
 
             <div>
-                <a href="#" to="/tvshows" >TV Shows</a>
-                <a href="#" to="/movies" >Movies</a>
-                <a href="#" to="/recent" >Recently Added</a>
-                <a href="#" to="/mylist" >My List</a>
+                <button to="/tvshows" >TV Shows</button>
+                <button to="/movies" >Movies</button>
+                <button to="/recent" >Recently Added</button>
+                <button to="/mylist" >My List</button>
             </div>
 
             <ImSearch />
